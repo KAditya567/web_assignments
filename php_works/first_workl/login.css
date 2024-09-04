@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://www.hdwallpapers.in/download/blue_lights_cool_3d_background_hd_cool_3d_background-1920x1080.jpg");
+
+}
+main{
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    backdrop-filter: blur(100px);
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
+
+}
+.box{
+    margin: 20px;
+}
+a{
+    /* text-decoration: none; */
+    color: rgb(232, 232, 232);
+}
+
+input{
+    padding: 5px 10px;
+    outline: none;
+}

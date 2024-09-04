@@ -1,0 +1,66 @@
+<maac>
+<heading>
+<one>Naam</one>
+<two>Id</two>
+<three>Age</three>
+<four>Kya krte ho</four>
+<five>Kitna kmate ho</five>
+<six>Kha se ho</six>
+</heading>
+ <student>
+  <naam>Anjali</naam>
+  <id>12548</id>
+  <age>200</age>
+  <kya_krte_ho>Freelancing</kya_krte_ho>
+  <kitna_kmate_ho>Thoda bahut</kitna_kmate_ho>
+  <kha_se_ho>Badi dur se</kha_se_ho>
+</student>
+ <student>
+  <naam>Animesh</naam>
+  <id>22655</id>
+  <age>220</age>
+  <kya_krte_ho>Freelancing</kya_krte_ho>
+  <kitna_kmate_ho>Andha paisa</kitna_kmate_ho>
+  <kha_se_ho>Dasrathpuri</kha_se_ho>
+</student>
+ <student>
+  <naam>Ayushi</naam>
+  <id>13354</id>
+  <age>200</age>
+  <kya_krte_ho>Kuch nahi</kya_krte_ho>
+  <kitna_kmate_ho>Jarurat nahi</kitna_kmate_ho>
+  <kha_se_ho>Chawla se</kha_se_ho>
+</student>
+ <student>
+  <naam>Kunal</naam>
+  <id>24922</id>
+  <age>19</age>
+  <kya_krte_ho>1 bje so kr uthta hu</kya_krte_ho>
+  <kitna_kmate_ho>Kuch na</kitna_kmate_ho>
+  <kha_se_ho>Pta nahi</kha_se_ho>
+</student>
+ <student>
+  <naam>Neha</naam>
+  <id>45542</id>
+  <age>210</age>
+  <kya_krte_ho>Kala jadu</kya_krte_ho>
+  <kitna_kmate_ho>Aa jate h bus..</kitna_kmate_ho>
+  <kha_se_ho>Badi dur se</kha_se_ho>
+</student>
+ <student>
+  <naam>Sushant</naam>
+  <id>444545</id>
+  <age>250</age>
+  <kya_krte_ho>Vele h</kya_krte_ho>
+  <kitna_kmate_ho>Kuch nhi</kitna_kmate_ho>
+  <kha_se_ho>Kahi se to aaya h</kha_se_ho>
+</student>
+<student>
+  <naam>Tisha</naam>
+  <id>33125</id>
+  <age>18</age>
+  <kya_krte_ho>Ghumti rhti hu</kya_krte_ho>
+  <kitna_kmate_ho>Bahut</kitna_kmate_ho>
+  <kha_se_ho>Pagal khane se</kha_se_ho>
+</student>
+</maac>

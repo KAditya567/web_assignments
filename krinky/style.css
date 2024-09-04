@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* owl carasoul css start */
+.my {
+  width: 100%;
+  /* height: 100px; */
+}
+.my {
+  .img {
+    height: 50px;
+  }
+}
+/* owl carasoul css end */
+
+/* Extra large devices start here (large laptops and desktops, 1200px and up) */
+
+/* header start here */
+.btn1 {
+  background-color: #ff651c;
+  color: white;
+  width: 180px;
+  border: none;
+  padding: 8px 20px;
+  box-shadow: 5px 5px 1px black;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn1:hover {
+  background-color: black;
+  box-shadow: 5px 5px 1px #ff651c;
+  transition: all 0.4s ease;
+}
+.btn2 {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  box-shadow: 5px 5px 1px #ff651c;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn2:hover {
+  background-color: #ff651c;
+  box-shadow: 5px 5px 1px black;
+  transition: all 0.4s ease;
+}
+.intro h3 {
+  color: #ff651c;
+}
+.skills {
+  background-color: #9bd3d0;
+  border: 2px solid black;
+  padding: 15px;
+  height: 80px;
+}
+.btn3 {
+  background-color: #fec448;
+  color: #373737;
+  border: none;
+  width: 180px;
+  padding: 8px 20px;
+  box-shadow: 5px 5px 1px #ff651c;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.btn3:hover {
+  background-color: #ff651c;
+  box-shadow: 5px 5px 1px #fec448;
+  transition: all 0.4s ease;
+  color: white;
+}
+.work:hover {
+  box-shadow: 5px 5px 1px black !important;
+  transition: all 0.4s ease;
+}
+.fom {
+  border: 1px solid black;
+  padding: 8px 12px;
+  outline: none;
+  width: 100%;
+  margin: 8px 0px 25px 0px;
+}
+.menu a {
+  border-bottom: 2px solid red !important;
+}
+/* header end  */
+
+/* background color rgba(254, 196, 72, 0.1);  absolute*/
+/* background sliding color rgba(254, 196, 72, 0.4);  relative*/
+
+/* footer start  */
+.foot {
+  background-color: #373737;
+  border-top: 1px solid gray;
+}
+
+/* footer end  */
+
+/* Extra large devices end here (large laptops and desktops, 1200px and up) */
+
+/* resposive for mobiles using 600px start here   */
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  .fw-bolder {
+    font-size: 48px !important;
+  }
+  .person-img {
+    margin-top: 0px !important;
+  }
+  body {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    /* background-color: red; */
+  }
+
+  .top-main {
+    padding-top: -100px !important;
+  }
+
+  .top-info {
+    text-align: center;
+    margin-top: 60px !important;
+    margin-bottom: 100px;
+  }
+  .exp {
+    padding-top: 0px !important;
+  }
+  .intro-dis {
+    width: 100%;
+    padding: 20px;
+  }
+  .pic-down {
+    margin-top: 30px;
+  }
+  .work-flex {
+    width: 100%;
+    flex-direction: column;
+  }
+  .work {
+    width: 100% !important;
+  }
+  .work-left {
+    margin-top: 16px !important;
+    margin-left: 0px !important;
+  }
+  .my-skills {
+    margin: -30px;
+  }
+  .contact-now {
+    text-align: center;
+  }
+  .order-down {
+    order: 2 !important;
+  }
+  .order-up {
+    order: 1 !important;
+  }
+  .btn-down {
+    margin-top: 20px;
+  }
+  .testimonal {
+    padding: 0px !important;
+  }
+  .testimonal .row {
+    margin: 0px !important;
+    padding: 10px !important;
+  }
+  .feedback-box {
+    margin: 0 !important;
+  }
+
+  .feedback {
+    width: 100% !important;
+  }
+  .address {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  .pic-box {
+    text-align: center;
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+  }
+  .pic-box-img {
+    text-align: center;
+    width: 95% !important;
+  }
+  .check {
+    display: block !important;
+    flex-direction: column !important;
+  }
+  .test-img {
+    margin: 10px 0px 10px 0px;
+  }
+  .item {
+    padding: 0px 20px;
+  }
+  /* footer start  */
+  .foot {
+    text-align: center !important;
+  }
+  .foot ul {
+    margin-left: 50px;
+  }
+
+  /* footer end  */
+}
+
+/* resposive for mobiles using 600px end here  */
+
+/* resposive for tab using 992px start here  */
+@media only screen and (min-width: 992px) {
+  .address {
+    padding-left: 0px !important;
+  }
+  .pic-box {
+    text-align: center;
+    margin-left: 0px !important;
+  }
+  .pic-box-img {
+    width: 90% !important;
+  }
+
+  .intro-dis {
+    width: 50%;
+  }
+}
+
+/* resposive for tab using 992px end here  */

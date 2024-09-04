@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.first {
+  padding-left: 40px;
+  font-size: larger;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+li {
+  padding-right: 40px;
+  list-style-type: none;
+}
+main {
+  background-color: rgb(165, 163, 163);
+}
+.photo {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  background: url("https://source.unsplash.com/random/?nature/") no-repeat;
+  background-size: cover;
+  color: black;
+}
+.content {
+  padding: 20px;
+}
+i {
+  padding-left: 20px;
+}
+.one:first-child {
+  padding-left: 40px;
+}
+.two {
+  padding-right: 150px;
+}
+
+/* form start  */
+form{
+  background-color: white;
+}
+input{
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.568);
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+span{
+  margin: 50px 0px;
+  border: 1px soild red;
+  /* background-color: red; */
+}
+
+
+/* form end  */

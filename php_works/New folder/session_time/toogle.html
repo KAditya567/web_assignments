@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="password" id="password" />
+    <button id="toggle-password" onclick="togglePassword()">
+      <i class="fas fa-eye" id="eye-icon"></i>
+    </button>
+    <script>
+      // JavaScript
+      function togglePassword() {
+        const passwordInput = document.getElementById("password");
+        const eyeIcon = document.getElementById("eye-icon");
+
+        if (passwordInput.type === "password") {
+          passwordInput.type = "text";
+          eyeIcon.classList.add("fa-eye-slash");
+          eyeIcon.classList.remove("fa-eye");
+        } else {
+          passwordInput.type = "password";
+          eyeIcon.classList.add("fa-eye");
+          eyeIcon.classList.remove("fa-eye-slash");
+        }
+      }
+    </script>
+  </body>
+</html>
